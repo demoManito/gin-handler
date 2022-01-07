@@ -16,13 +16,6 @@ const (
 	MaxPageSize     int64 = 100
 )
 
-// split limit and default value
-const (
-	MaxParamSplitLength = 100
-
-	DefaultSplitSep = ","
-)
-
 // Context request context
 type Context struct {
 	C *gin.Context
