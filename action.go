@@ -8,14 +8,12 @@ import (
 )
 
 // Error Codes
-// doc: https://github.com/MiaoSiLa/missevan-doc/blob/master/api/error_code.md
 const (
 	CodeSuccess           = 0
 	CodeErrSignature      = 100010002
 	CodeLoginRequired     = 100010006
 	CodeUnknownError      = 100010007
 	CodeBindMobile        = 100010008
-	CodeGlobalPopupPrompt = 100010018
 
 	CodeBannedUser                = 200020004
 	CodeUserLimit                 = 200020005
@@ -33,11 +31,6 @@ const (
 
 	CodeEmptyParam   = 201010001
 	CodeInvalidParam = 201010002
-
-	CodeInsufficientBalance = 200360006 // 您的余额不足，请充值后购买
-	CodeFailedToComment     = 200310100
-
-	CodeSearchHasForbiddenWord = 200510002
 )
 
 // errors
